@@ -1,0 +1,18 @@
+package 練習;
+
+public class this_Ctor {
+private String id;  //沒有對外提供任隨意修改
+	
+	public this_Ctor() {  //對外提供建構式,須與檔案名稱一致
+		this("567");
+		System.out.println(this.id);
+		
+}
+	public this_Ctor(String id) {
+		this.id = id;
+		} 
+	
+	public static void main(String[] args) {
+		this_Ctor c1 =  new this_Ctor();
+	}
+}

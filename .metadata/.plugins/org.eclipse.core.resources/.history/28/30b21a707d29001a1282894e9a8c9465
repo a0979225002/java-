@@ -1,0 +1,10 @@
+package 練習;
+
+public class 猜數字 {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+
+	}
+
+}

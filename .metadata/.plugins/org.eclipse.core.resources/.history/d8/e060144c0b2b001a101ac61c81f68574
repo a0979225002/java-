@@ -1,0 +1,12 @@
+package 練習;
+
+import javax.swing.JOptionPane;
+
+public class 測試 {
+public static void main(String[] args) {
+	String sb = JOptionPane.showInputDialog("輸入");
+	System.out.println(sb);
+
+	
+}
+}

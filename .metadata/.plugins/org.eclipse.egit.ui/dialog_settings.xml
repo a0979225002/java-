@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="git://https://github.com/a0979225002/java-.git/D:\JAVA(練習)"/>
+		<item value="git://https://github.com/a0979225002/java-.git:23/D:\JAVA(練習)"/>
+		<item value="http://https://github.com/a0979225002/java-.git:23/D:\JAVA(練習)"/>
+		<item value="file:///D:\JAVA(練習)"/>
+	</list>
+	<section name="GitImportWizard">
+	</section>
+</section>

@@ -1,0 +1,34 @@
+package 練習;
+
+public class TWId {
+	private String id;   //沒有對外提供任隨意修改
+	
+	public TWId() {  //對外提供建構式,須與檔案名稱一致
+      int a= 100;
+}
+	public TWId(boolean isMale) {
+		} 
+	
+	public TWId(int area) {   //問是哪個縣市   須思考對外提供哪些方法
+     this();
+     System.out.println(this.toString());
+		System.out.println(area);
+	}
+	//須思考規劃的方向	
+		public TWId(int area, boolean isMale) {
+		}
+		private TWId(String id) {  //要先在內部驗證後,再呼叫提供至外部
+	}
+		public static boolean checkId(String id) {//只有public沒有static須先有物件
+			//加上static 可能是屬性,可能是方法,完全與物件無關
+			System.out.println("OK");
+			return true;
+		}
+		
+		public static void main(String[] args) {
+			TWId t1 = new TWId(567);
+		}
+	}
+
+
+

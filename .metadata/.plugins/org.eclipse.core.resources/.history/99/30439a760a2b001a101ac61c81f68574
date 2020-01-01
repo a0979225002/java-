@@ -1,0 +1,9 @@
+package 練習;
+
+public class 測試 {
+public static void main(String[] args) {
+	StringBuffer sb = new StringBuffer();
+	sb.append(1234);
+	System.out.println(sb);
+}
+}

@@ -1,0 +1,17 @@
+package 執行;
+
+import 練習.TWId;
+
+public class TW_ID {
+
+	public static void main(String[] args) {
+     System.out.println(TWId.checkId("L124705235")?"OK":"XX");
+     
+     String s1 = "123";
+     String s2 = "123";
+     
+     System.out.println(s1.hashCode());
+     System.out.println(s2.hashCode());
+	}
+
+}

@@ -1,0 +1,19 @@
+package 練習;
+
+public class this_Ctor {
+	int a = 10;
+	this_Ctor(){
+		int a = 10;
+		
+	}
+	
+	this_Ctor(int a){
+		this();
+		System.out.println(a);
+	}
+
+	public static void main(String[] args) {
+		this_Ctor c1 = new this_Ctor();
+	}
+
+}

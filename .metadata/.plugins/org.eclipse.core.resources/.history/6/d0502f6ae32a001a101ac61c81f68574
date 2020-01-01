@@ -1,0 +1,38 @@
+package 練習;
+
+import java.util.Arrays;
+
+public class Guess_the_number {
+
+	String createAnswer(int d) {
+		// 印出隨機數
+		// 1-1(先給予陣列內放0~9)
+		int[] poker = new int[10];
+		for (int i = 0; i < poker.length; i++) {
+			poker[i] = i;
+		}
+		// 1-2(讓poker數字隨機,且不能重複)
+		for (int i = 9; i > 0; i--) {
+			int rand = (int) (Math.random() * 9);
+			int temp = poker[i];
+			poker[i] = poker[rand];
+			poker[rand] = temp;
+		}
+		StringBuffer sb = new StringBuffer();
+		for (int j = 0; j < 10; j++) {
+
+			for (int i = 0; i < d; i++) {
+				sb.append(poker[i]);
+			}
+			return sb.toString();
+		}
+
+	}
+
+	public static void main(String[] args) {
+		Guess_the_number obj = new Guess_the_number();
+		String answer = obj.createAnswer(2);// 讓玩家選擇想要的難度(填入的數字=要猜幾個字)
+		System.out.println(obj.createAnswer(5));
+	}
+
+}

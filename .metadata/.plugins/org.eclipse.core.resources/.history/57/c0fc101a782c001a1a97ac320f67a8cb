@@ -1,0 +1,11 @@
+package 執行;
+
+import 練習.TWId;
+
+public class TW_ID {
+
+	public static void main(String[] args) {
+     System.out.println(TWId.checkId("B221019841")?"OK":"XX");
+	}
+
+}

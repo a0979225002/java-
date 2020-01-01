@@ -1,0 +1,30 @@
+package 練習;
+
+import javax.swing.JOptionPane;
+
+public class 測試 {
+	int a = 10;
+	測試 (){
+		
+	}
+	
+	測試 a(int a) {
+		this.a = 100;
+		 b = new 測試();
+		return ;
+	}
+public static void main(String[] args) {
+	
+	
+	String sb = JOptionPane.showInputDialog(567);
+	String aString = "123";
+	for (int i = 0; i < 2; i++) {
+		if (sb.equals(aString )) {
+			JOptionPane.showInputDialog(null);
+		}else {
+			System.out.println("你來亂的");
+		}
+	}
+	System.out.println(sb);
+}
+}

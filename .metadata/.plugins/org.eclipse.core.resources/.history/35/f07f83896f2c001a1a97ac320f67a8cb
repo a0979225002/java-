@@ -1,0 +1,9 @@
+package 練習;
+
+public class 建構子 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

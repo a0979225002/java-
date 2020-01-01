@@ -1,0 +1,24 @@
+package 練習;
+
+public class this_Ctor {
+private String id;  //沒有對外提供任隨意修改
+	
+	public this_Ctor() {  //對外提供建構式,須與檔案名稱一致
+		this(123);
+		
+}
+	public this_Ctor(boolean isMale) {
+		} 
+	
+	public this_Ctor(int area) {   //問是哪個縣市   須思考對外提供哪些方法
+	}
+//須思考規劃的方向	
+	public this_Ctor(int area, boolean isMale) {
+	}
+	private this_Ctor(String id) {  //要先在內部驗證後,再呼叫提供至外部
+		
+	}
+	public static void main(String[] args) {
+		this_Ctor c1 =  new this_Ctor();
+	}
+}
